@@ -1,0 +1,11 @@
+{
+    "plugins": ["@typescript-eslint", "prettier"],
+    "extends": ["airbnb-typescript", "prettier"],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "rules": {
+        "prettier/prettier": ["error"],
+        "react/react-in-jsx-scope": "off"
+    }
+  }
