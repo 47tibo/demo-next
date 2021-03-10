@@ -1,7 +1,7 @@
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import Link from 'next/link'
 
-type MoviesProps = {
+export type MoviesProps = {
   title: string
   poster_path: string | null
 }
